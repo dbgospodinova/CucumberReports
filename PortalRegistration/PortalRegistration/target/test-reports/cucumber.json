@@ -1,0 +1,124 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Registration with valid credentials",
+        "description": "",
+        "id": "registration-finctionality;registration-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8294796418,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open Chrome and start portal",
+            "match": {
+              "location": "RegistrationTests.open_Chrome_and_start_portal()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2665356625,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter valid credentials",
+            "match": {
+              "location": "RegistrationTests.i_enter_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6353316,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should be able to register",
+            "match": {
+              "location": "RegistrationTests.user_should_be_able_to_register()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@POR-2"
+          },
+          {
+            "line": 4,
+            "name": "@OPEN"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Registration with invalid credentials",
+        "description": "",
+        "id": "registration-finctionality;registration-with-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7091158691,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Open Chrome and start portal",
+            "match": {
+              "location": "RegistrationTests.open_Chrome_and_start_portal()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2509375495,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter invalid credentials",
+            "match": {
+              "location": "RegistrationTests.i_enter_invalid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 105622111,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User should not be able to register",
+            "match": {
+              "location": "RegistrationTests.user_should_not_be_able_to_register()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@POR-2"
+          },
+          {
+            "line": 12,
+            "name": "@OPEN"
+          }
+        ]
+      }
+    ],
+    "name": "Registration finctionality",
+    "description": "",
+    "id": "registration-finctionality",
+    "keyword": "Feature",
+    "uri": "1-registration-finctionality.feature"
+  }
+]
