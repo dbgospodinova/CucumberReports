@@ -28,7 +28,7 @@ public class RegistrationTests {
 		driver.findElement(By.xpath("//a[@class='btn btn-tertiary']")).click();
 		driver.findElement(By.xpath("//input[@id='forename']")).sendKeys("Behave");
 		driver.findElement(By.xpath("//input[@id='surname']")).sendKeys("Pro");
-		//driver.findElement(By.xpath("//input[@id='company123']")).sendKeys("Miracl");
+		driver.findElement(By.xpath("//input[@id='company']")).sendKeys("Miracl");
 		driver.findElement(By.xpath("//input[@id='emailAddress']")).sendKeys("test_behavepro@mailinator.com");
 		Select select = new Select(driver.findElement(By.tagName("select")));
 		select.selectByVisibleText("Bulgaria");
