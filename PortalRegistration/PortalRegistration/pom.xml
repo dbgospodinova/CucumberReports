@@ -32,10 +32,10 @@
 				<artifactId>behave-maven-plugin</artifactId>
 				<version>1.0.4</version>
 				<configuration>
-					<server>https://behave.pro</server>
-					<projectKey>10100</projectKey>
-					<username>MzlmM2JiYjEtYTFiOC0zNWJmLWE4NmUtMDUyZWNiZWU5MWY4</username>
-					<password>afb484812d36b83c7b237e803cb437dd25357b7c</password>
+					<server>http://localhost:8080</server>
+					<projectKey>10000</projectKey>
+					<username>behavepro1</username>
+					<password>behavepro1</password>
 				</configuration>
 				<executions>
 					<execution>
