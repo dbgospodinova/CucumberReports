@@ -34,7 +34,7 @@
 				<configuration>
 					<server>http://localhost:8080</server>
 					<projectKey>10000</projectKey>
-					<username>behavepro1@abv.bg</username>
+					<username>behavepro1</username>
 					<password>behavepro1</password>
 				</configuration>
 				<executions>
